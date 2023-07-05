@@ -45,27 +45,24 @@ See an example of the program [here](https://github.com/EstherSlabbert/Simple-Ca
 5. Next we need the two numbers that the user wishes to use the operation on. To ensure the user input a valid option for the operations provided, we need to code this into an if statement. To do this, type the following (or similar) in your python file:
     <ul>
         <pre>if choice in (1, 2, 3, 4, 5):
-       num1 = float(input("\n Enter your first number: "))
-       num2 = float(input("\n Enter your second number: "))
+           num1 = float(input("\n Enter your first number: "))
+           num2 = float(input("\n Enter your second number: "))
    else:
        print("Invalid option. Try running the program again.")</pre>
     </ul>
 6. Next we need to take the information the user input and put it into action. So we need to create several if statements containing the functions we defined in step 3 to determine which operation will be performed. Then we need to input the two numbers that the user wants the operations to be performed on in these functions and print the results as something readable to the user. To do this, type the following (or similar) in your python file:
     <ul>
-        <pre>if choice == 1:
-    print(num1, "+", num2, "=", add(num1, num2))
-
+        <pre># choice results
+    if choice == 1:
+            print(num1, "+", num2, "=", add(num1, num2))
     elif choice == 2:
-    print(num1, "-", num2, "=", subtract(num1, num2))
-
+            print(num1, "-", num2, "=", subtract(num1, num2))
     elif choice == 3:
-    print(num1, "x", num2, "=", multiply(num1, num2))
-
+            print(num1, "x", num2, "=", multiply(num1, num2))
     elif choice == 4:
-    print(num1, "/", num2, "=", divide(num1, num2))
-
+            print(num1, "/", num2, "=", divide(num1, num2))
     elif choice == 5:
-    print(num1, "%", num2, "=", modulo(num1, num2))</pre>
+            print(num1, "%", num2, "=", modulo(num1, num2))</pre>
     </ul>
 7. Now you can run your program and try it out.
 8. Congratulations! Now you have successfully created a simple calculator in Python, which you can improve upon and play around with.
