@@ -1,7 +1,7 @@
 # How to make a simple calculator in Python
 ###### by Esther Slabbert
 
-#### Please note that this is a guide for a simple calculator, which can be used as a template and modified to the creator's preferences. Feel free to add comments to make your code more readable.
+**Please note that this is a guide for a simple calculator, which can be used as a template and modified to the creator's preferences. Feel free to add comments to make your code more readable.**
 
 1. Create a new .py file and name it appropriately.
 2. Open the .py file that you have created.
