@@ -3,6 +3,8 @@
 
 **Please note that this is a guide for a simple calculator, which can be used as a template and modified to the creator's preferences. Feel free to add comments to make your code more readable.**
 
+See an example of the program [here](https://github.com/EstherSlabbert/Simple-Calculator-Guide/blob/main/Simple-Calculator.py).
+
 1. Create a new .py file and name it appropriately.
 2. Open the .py file that you have created.
 3. Start your code by defining several functions for the different operations you would like to include in your calculator for operations between two numbers. (Note: You may wish to alter which functions you would like to make/include and how you would like to make them. Below is only an example of how your code could look.)
