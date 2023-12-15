@@ -60,25 +60,4 @@ if choice in (1, 2, 3, 4, 5):
         except ValueError:
             print("Invalid input. Please enter a number.")
 else:
-    print("Invalid option. Try running the program again.")
 
-# performs the function based on the input received
-if choice == 1:
-    # returns added numbers
-    print(num1, "+", num2, "=", add(num1, num2))
-
-elif choice == 2:
-    # returns subtracted numbers
-    print(num1, "-", num2, "=", subtract(num1, num2))
-
-elif choice == 3:
-    # returns multiplied numbers
-    print(num1, "x", num2, "=", multiply(num1, num2))
-
-elif choice == 4:
-    # returns divided numbers
-    print(num1, "/", num2, "=", divide(num1, num2))
-
-elif choice == 5:
-    # returns modulus (i.e. the remainder of num1/num2)
-    print(num1, "%", num2, "=", modulo(num1, num2))
