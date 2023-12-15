@@ -1,7 +1,7 @@
 # How to make a simple calculator in Python
 ###### by Esther Slabbert
 
-**Please note that this is a guide for a simple calculator, which can be used as a template and modified to the creator's preferences. Feel free to add comments to make your code more readable.**
+**Please note that this is a guide for a simple calculator, which can be used as a template and modified to the creator's preferences. Feel free to add comments to make your code more readable. (Using a try-catch block would also make the code more user-friendly if you want a small challenge.)**
 
 See an example of the program [here](https://github.com/EstherSlabbert/Simple-Calculator-Guide/blob/main/Simple-Calculator.py).
 
